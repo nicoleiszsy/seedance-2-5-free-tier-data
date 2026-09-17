@@ -1,0 +1,217 @@
+{
+  "dataset": "Seedance 2.5 free-tier observations",
+  "maintainer": "VideoFreeTier",
+  "homepage": "https://videofreetier.com/",
+  "license": "CC BY 4.0",
+  "generated": "2026-09-17",
+  "note": "Each row records what a channel granted or stated, on the date observed. source_type: vendor = stated by the vendor; report = reported by a user; single-source = one uncorroborated account.",
+  "fields": [
+    "model",
+    "channel",
+    "metric",
+    "value",
+    "observed",
+    "source_type",
+    "note"
+  ],
+  "records": [
+    {
+      "model": "Seedance 2.5",
+      "channel": "Jimeng",
+      "metric": "daily free credits",
+      "value": "60-100",
+      "observed": "2026-07-04",
+      "source_type": "report",
+      "note": "not a published figure; range as reported"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "Jimeng",
+      "metric": "daily free credits",
+      "value": "88",
+      "observed": "2026-08-11",
+      "source_type": "report",
+      "note": "conflicts with the July figure above; no official statement"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "Doubao",
+      "metric": "daily generations (free tier)",
+      "value": "5",
+      "observed": "2026-08-11",
+      "source_type": "report",
+      "note": "per account per day"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "Mina Labs",
+      "metric": "sign-up bonus",
+      "value": "20 credits",
+      "observed": "2026-08-11",
+      "source_type": "report",
+      "note": "one-off, new users"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "Lovart",
+      "metric": "annual plan bonus",
+      "value": "up to 20 generations",
+      "observed": "2026-08-11",
+      "source_type": "report",
+      "note": "tied to an annual subscription"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "Doubao Work",
+      "metric": "launch giveaway",
+      "value": "30 days Standard membership (list CNY 68)",
+      "observed": "2026-08-25",
+      "source_type": "report",
+      "note": "desktop client + phone-number login required; inner quota unverified"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "ByteDance (official)",
+      "metric": "max clip length",
+      "value": "30 seconds, single pass",
+      "observed": "2026-07-31",
+      "source_type": "vendor",
+      "note": "up from 15 s in Seedance 2.0"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "ByteDance (official)",
+      "metric": "extension ceiling",
+      "value": "multi-minute, no round limit stated",
+      "observed": "2026-07-31",
+      "source_type": "vendor",
+      "note": "official wording is 'several minutes'"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "Jimeng (reported)",
+      "metric": "extension ceiling",
+      "value": "3 minutes, Jimeng-only",
+      "observed": "2026-07-08",
+      "source_type": "report",
+      "note": "official material confirms neither the number nor exclusivity"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "ByteDance (official)",
+      "metric": "output resolution",
+      "value": "not stated",
+      "observed": "2026-07-31",
+      "source_type": "vendor",
+      "note": "the official post omits resolution entirely"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "most hosting platforms",
+      "metric": "output resolution",
+      "value": "1080p",
+      "observed": "2026-07 to 2026-08",
+      "source_type": "vendor",
+      "note": "as advertised on model landing pages"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "one hosting platform",
+      "metric": "output resolution claim",
+      "value": "4K",
+      "observed": "2026",
+      "source_type": "vendor",
+      "note": "single platform; contradicted by its own plan table"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "one pre-launch tester",
+      "metric": "output resolution",
+      "value": "4K + 10-bit",
+      "observed": "2026-07-04",
+      "source_type": "single-source",
+      "note": "source was under NDA; nothing else corroborates it"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "Doubao",
+      "metric": "watermark, free tier",
+      "value": "watermarked",
+      "observed": "2026-08-27",
+      "source_type": "report",
+      "note": ""
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "Doubao",
+      "metric": "watermark, paid tier",
+      "value": "removal off by default, manual toggle",
+      "observed": "2026-08-27",
+      "source_type": "report",
+      "note": "toggle path: generate, open full size, top-right menu, auto-remove watermark"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "Doubao",
+      "metric": "watermark, after the fact",
+      "value": "not retroactive",
+      "observed": "2026-08-27",
+      "source_type": "report",
+      "note": "subscribing later does not strip watermarks already saved"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "BytePlus ModelArk",
+      "metric": "API availability",
+      "value": "coming soon",
+      "observed": "2026-07-31",
+      "source_type": "vendor",
+      "note": "as stated in the official launch post"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "developer report",
+      "metric": "API availability",
+      "value": "opened 2026-07-16",
+      "observed": "2026-07-15",
+      "source_type": "report",
+      "note": "conflicts with the vendor statement; unresolved"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "API (in practice)",
+      "metric": "error codes seen",
+      "value": "429, 400, 402",
+      "observed": "2026-08-04",
+      "source_type": "report",
+      "note": "429 rate cap; 400 param limits; 402 insufficient balance"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "API (in practice)",
+      "metric": "error strings seen",
+      "value": "api error: 529 overloaded; connection lost mid-response",
+      "observed": "2026-08-25",
+      "source_type": "report",
+      "note": ""
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "API (in practice)",
+      "metric": "billing on failure",
+      "value": "moderation/platform failures not charged; dissatisfaction charged",
+      "observed": "2026-08-04",
+      "source_type": "report",
+      "note": ""
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "one host, 5 test groups",
+      "metric": "first-attempt usable rate",
+      "value": "~30% to >60%",
+      "observed": "2026-08-12",
+      "source_type": "report",
+      "note": "with structured prompts assigning one job per reference; one tester, not a benchmark"
+    }
+  ]
+}

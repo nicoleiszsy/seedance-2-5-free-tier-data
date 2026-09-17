@@ -1,0 +1,33 @@
+# Seedance 2.5 free-tier observations
+
+Maintained by VideoFreeTier — https://videofreetier.com/
+
+Each row records what a channel granted or stated, on the date observed.
+`source_type`: `vendor` = stated by the vendor; `report` = reported by a user; `single-source` = one uncorroborated account.
+
+| model | channel | metric | value | observed | source_type | note |
+|---|---|---|---|---|---|---|
+| Seedance 2.5 | Jimeng | daily free credits | 60-100 | 2026-07-04 | report | not a published figure; range as reported |
+| Seedance 2.5 | Jimeng | daily free credits | 88 | 2026-08-11 | report | conflicts with the July figure above; no official statement |
+| Seedance 2.5 | Doubao | daily generations (free tier) | 5 | 2026-08-11 | report | per account per day |
+| Seedance 2.5 | Mina Labs | sign-up bonus | 20 credits | 2026-08-11 | report | one-off, new users |
+| Seedance 2.5 | Lovart | annual plan bonus | up to 20 generations | 2026-08-11 | report | tied to an annual subscription |
+| Seedance 2.5 | Doubao Work | launch giveaway | 30 days Standard membership (list CNY 68) | 2026-08-25 | report | desktop client + phone-number login required; inner quota unverified |
+| Seedance 2.5 | ByteDance (official) | max clip length | 30 seconds, single pass | 2026-07-31 | vendor | up from 15 s in Seedance 2.0 |
+| Seedance 2.5 | ByteDance (official) | extension ceiling | multi-minute, no round limit stated | 2026-07-31 | vendor | official wording is 'several minutes' |
+| Seedance 2.5 | Jimeng (reported) | extension ceiling | 3 minutes, Jimeng-only | 2026-07-08 | report | official material confirms neither the number nor exclusivity |
+| Seedance 2.5 | ByteDance (official) | output resolution | not stated | 2026-07-31 | vendor | the official post omits resolution entirely |
+| Seedance 2.5 | most hosting platforms | output resolution | 1080p | 2026-07 to 2026-08 | vendor | as advertised on model landing pages |
+| Seedance 2.5 | one hosting platform | output resolution claim | 4K | 2026 | vendor | single platform; contradicted by its own plan table |
+| Seedance 2.5 | one pre-launch tester | output resolution | 4K + 10-bit | 2026-07-04 | single-source | source was under NDA; nothing else corroborates it |
+| Seedance 2.5 | Doubao | watermark, free tier | watermarked | 2026-08-27 | report |  |
+| Seedance 2.5 | Doubao | watermark, paid tier | removal off by default, manual toggle | 2026-08-27 | report | toggle path: generate, open full size, top-right menu, auto-remove watermark |
+| Seedance 2.5 | Doubao | watermark, after the fact | not retroactive | 2026-08-27 | report | subscribing later does not strip watermarks already saved |
+| Seedance 2.5 | BytePlus ModelArk | API availability | coming soon | 2026-07-31 | vendor | as stated in the official launch post |
+| Seedance 2.5 | developer report | API availability | opened 2026-07-16 | 2026-07-15 | report | conflicts with the vendor statement; unresolved |
+| Seedance 2.5 | API (in practice) | error codes seen | 429, 400, 402 | 2026-08-04 | report | 429 rate cap; 400 param limits; 402 insufficient balance |
+| Seedance 2.5 | API (in practice) | error strings seen | api error: 529 overloaded; connection lost mid-response | 2026-08-25 | report |  |
+| Seedance 2.5 | API (in practice) | billing on failure | moderation/platform failures not charged; dissatisfaction charged | 2026-08-04 | report |  |
+| Seedance 2.5 | one host, 5 test groups | first-attempt usable rate | ~30% to >60% | 2026-08-12 | report | with structured prompts assigning one job per reference; one tester, not a benchmark |
+
+License: CC BY 4.0. Source: https://videofreetier.com/
