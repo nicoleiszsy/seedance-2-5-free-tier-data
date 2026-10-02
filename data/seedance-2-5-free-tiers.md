@@ -2,7 +2,7 @@
 
 Maintained by VideoFreeTier — https://videofreetier.com/
 
-Coverage: Seedance 2.5 and PixVerse (more models added as they are verified).
+Coverage: Seedance 2.5, PixVerse and Runway (more models added as they are verified).
 Each row records what a channel granted or stated (or, for a documented absence, what the official pages do not state), on the date observed.
 `source_type`: `vendor` = stated by the vendor, including officially published absences; `report` = reported by a user; `single-source` = one uncorroborated account.
 
@@ -32,6 +32,11 @@ Each row records what a channel granted or stated (or, for a documented absence,
 | Seedance 2.5 | one host, 5 test groups | first-attempt usable rate | ~30% to >60% | 2026-08-12 | report | with structured prompts assigning one job per reference; one tester, not a benchmark |
 | PixVerse | pixverse.ai (official site) | free-tier allowance figures | not published | 2026-10-02 | vendor | homepage and /zh/pricing checked 2026-10-02; /pricing returns 404; the official marketing site carries no free-tier credit figure; third-party guides claim 60 credits/day and a 90-credit sign-up bonus but no official page verifies it |
 | PixVerse | app.pixverse.ai (official app) | plan and credit details | published only behind a human-verification wall | 2026-10-02 | vendor | automated access on 2026-10-02 met a Cloudflare human-check interstitial; plan figures exist but could not be read without an interactive session; third-party claims unverified |
+| PixVerse | app.pixverse.ai (official app, pricing page) | free plan initial credits | 60 (one-time) | 2026-10-02 | vendor | pricing table: initial credits 60; read via an interactive browser session that passed the human check |
+| PixVerse | app.pixverse.ai (official app, pricing page) | free plan daily credits | 30 per day | 2026-10-02 | vendor | pricing table: daily refresh 30 for the free plan; paid tiers get 60/day; contradicts third-party guides that claim 60/day for free (60 is the free tier's initial grant, and the paid tiers' daily figure) |
+| PixVerse | app.pixverse.ai (official app, pricing page) | free plan video resolution ceiling | up to 540P | 2026-10-02 | vendor | paid tiers: up to 720P (Standard) and up to 4K |
+| PixVerse | app.pixverse.ai (official app, pricing page) | watermark removal | paid plans only; no watermark-free row in the free tier column | 2026-10-02 | vendor | pricing table lists watermark-free output from the Standard tier upward |
+| PixVerse | app.pixverse.ai (official app, pricing page) | free plan monthly membership credits | none (paid tiers: 1200-25000 per 30 days) | 2026-10-02 | vendor | credit packs sold separately: 500 credits $5, 2000 $20, 5000 $50, 10000 $100 |
 | Runway | runwayml.com (official pricing page) | free plan credits | 125 one-time credits | 2026-10-02 | vendor | plan table wording: 'Free forever... 125 one-time credits to explore Runway's AI tools' |
 | Runway | runwayml.com (official pricing page) | free plan credit expiry | one-time deposit, does not expire | 2026-10-02 | vendor | FAQ wording: 'the Free plan includes a one-time deposit of 125 credits that doesn't expire' |
 | Runway | runwayml.com (official pricing page) | credit consumption, Gen-4.5 | 12 credits per second of generated video | 2026-10-02 | vendor | from the pricing FAQ; the page states credit cost per generation depends on model, duration and resolution |

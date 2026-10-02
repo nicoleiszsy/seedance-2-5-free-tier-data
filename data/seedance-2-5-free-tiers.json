@@ -4,7 +4,7 @@
   "homepage": "https://videofreetier.com/",
   "license": "CC BY 4.0",
   "generated": "2026-10-02",
-  "coverage": "Seedance 2.5 and PixVerse; more models will be added as they are verified",
+  "coverage": "Seedance 2.5, PixVerse and Runway; more models will be added as they are verified",
   "note": "Each row records what a channel granted or stated (or, for a documented absence, what the official pages do not state), on the date observed. source_type: vendor = stated by the vendor, including officially published absences; report = reported by a user; single-source = one uncorroborated account. File names keep the seedance-2-5-free-tiers stem for link stability.",
   "fields": [
     "model",
@@ -231,6 +231,51 @@
       "observed": "2026-10-02",
       "source_type": "vendor",
       "note": "automated access on 2026-10-02 met a Cloudflare human-check interstitial; plan figures exist but could not be read without an interactive session; third-party claims unverified"
+    },
+    {
+      "model": "PixVerse",
+      "channel": "app.pixverse.ai (official app, pricing page)",
+      "metric": "free plan initial credits",
+      "value": "60 (one-time)",
+      "observed": "2026-10-02",
+      "source_type": "vendor",
+      "note": "pricing table: initial credits 60; read via an interactive browser session that passed the human check"
+    },
+    {
+      "model": "PixVerse",
+      "channel": "app.pixverse.ai (official app, pricing page)",
+      "metric": "free plan daily credits",
+      "value": "30 per day",
+      "observed": "2026-10-02",
+      "source_type": "vendor",
+      "note": "pricing table: daily refresh 30 for the free plan; paid tiers get 60/day; contradicts third-party guides that claim 60/day for free (60 is the free tier's initial grant, and the paid tiers' daily figure)"
+    },
+    {
+      "model": "PixVerse",
+      "channel": "app.pixverse.ai (official app, pricing page)",
+      "metric": "free plan video resolution ceiling",
+      "value": "up to 540P",
+      "observed": "2026-10-02",
+      "source_type": "vendor",
+      "note": "paid tiers: up to 720P (Standard) and up to 4K"
+    },
+    {
+      "model": "PixVerse",
+      "channel": "app.pixverse.ai (official app, pricing page)",
+      "metric": "watermark removal",
+      "value": "paid plans only; no watermark-free row in the free tier column",
+      "observed": "2026-10-02",
+      "source_type": "vendor",
+      "note": "pricing table lists watermark-free output from the Standard tier upward"
+    },
+    {
+      "model": "PixVerse",
+      "channel": "app.pixverse.ai (official app, pricing page)",
+      "metric": "free plan monthly membership credits",
+      "value": "none (paid tiers: 1200-25000 per 30 days)",
+      "observed": "2026-10-02",
+      "source_type": "vendor",
+      "note": "credit packs sold separately: 500 credits $5, 2000 $20, 5000 $50, 10000 $100"
     },
     {
       "model": "Runway",
