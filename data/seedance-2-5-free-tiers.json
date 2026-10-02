@@ -1,10 +1,11 @@
 {
-  "dataset": "Seedance 2.5 free-tier observations",
+  "dataset": "AI video model free-tier observations",
   "maintainer": "VideoFreeTier",
   "homepage": "https://videofreetier.com/",
   "license": "CC BY 4.0",
-  "generated": "2026-09-17",
-  "note": "Each row records what a channel granted or stated, on the date observed. source_type: vendor = stated by the vendor; report = reported by a user; single-source = one uncorroborated account.",
+  "generated": "2026-10-02",
+  "coverage": "Seedance 2.5 and PixVerse; more models will be added as they are verified",
+  "note": "Each row records what a channel granted or stated (or, for a documented absence, what the official pages do not state), on the date observed. source_type: vendor = stated by the vendor, including officially published absences; report = reported by a user; single-source = one uncorroborated account. File names keep the seedance-2-5-free-tiers stem for link stability.",
   "fields": [
     "model",
     "channel",
@@ -212,6 +213,24 @@
       "observed": "2026-08-12",
       "source_type": "report",
       "note": "with structured prompts assigning one job per reference; one tester, not a benchmark"
+    },
+    {
+      "model": "PixVerse",
+      "channel": "pixverse.ai (official site)",
+      "metric": "free-tier allowance figures",
+      "value": "not published",
+      "observed": "2026-10-02",
+      "source_type": "vendor",
+      "note": "homepage and /zh/pricing checked 2026-10-02; /pricing returns 404; the official marketing site carries no free-tier credit figure; third-party guides claim 60 credits/day and a 90-credit sign-up bonus but no official page verifies it"
+    },
+    {
+      "model": "PixVerse",
+      "channel": "app.pixverse.ai (official app)",
+      "metric": "plan and credit details",
+      "value": "not verifiable - bot wall",
+      "observed": "2026-10-02",
+      "source_type": "vendor",
+      "note": "the in-app subscribe page shows a Cloudflare human-verification interstitial to automated access; no plan figures retrievable without an interactive session"
     }
   ]
 }

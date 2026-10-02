@@ -1,9 +1,10 @@
-# Seedance 2.5 free-tier observations
+# AI video model free-tier observations
 
 Maintained by VideoFreeTier — https://videofreetier.com/
 
-Each row records what a channel granted or stated, on the date observed.
-`source_type`: `vendor` = stated by the vendor; `report` = reported by a user; `single-source` = one uncorroborated account.
+Coverage: Seedance 2.5 and PixVerse (more models added as they are verified).
+Each row records what a channel granted or stated (or, for a documented absence, what the official pages do not state), on the date observed.
+`source_type`: `vendor` = stated by the vendor, including officially published absences; `report` = reported by a user; `single-source` = one uncorroborated account.
 
 | model | channel | metric | value | observed | source_type | note |
 |---|---|---|---|---|---|---|
@@ -29,5 +30,7 @@ Each row records what a channel granted or stated, on the date observed.
 | Seedance 2.5 | API (in practice) | error strings seen | api error: 529 overloaded; connection lost mid-response | 2026-08-25 | report |  |
 | Seedance 2.5 | API (in practice) | billing on failure | moderation/platform failures not charged; dissatisfaction charged | 2026-08-04 | report |  |
 | Seedance 2.5 | one host, 5 test groups | first-attempt usable rate | ~30% to >60% | 2026-08-12 | report | with structured prompts assigning one job per reference; one tester, not a benchmark |
+| PixVerse | pixverse.ai (official site) | free-tier allowance figures | not published | 2026-10-02 | vendor | homepage and /zh/pricing checked 2026-10-02; /pricing returns 404; the official marketing site carries no free-tier credit figure; third-party guides claim 60 credits/day and a 90-credit sign-up bonus but no official page verifies it |
+| PixVerse | app.pixverse.ai (official app) | plan and credit details | not verifiable - bot wall | 2026-10-02 | vendor | the in-app subscribe page shows a Cloudflare human-verification interstitial to automated access; no plan figures retrievable without an interactive session |
 
 License: CC BY 4.0. Source: https://videofreetier.com/
