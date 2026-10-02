@@ -278,6 +278,15 @@
       "note": "credit packs sold separately: 500 credits $5, 2000 $20, 5000 $50, 10000 $100"
     },
     {
+      "model": "PixVerse",
+      "channel": "app.pixverse.ai (logged-in session)",
+      "metric": "credit deduction, one 5-second video generation",
+      "value": "50 credits",
+      "observed": "2026-10-02",
+      "source_type": "report",
+      "note": "reported by the site owner from a logged-in session, with a screenshot of the credit record; 5-second generation on default app settings; not independently re-verified by the site. Against the free grant: the 30/day refresh cannot fund one 5s generation (50 > 30); the one-time 60 covers exactly one, leaving 10"
+    },
+    {
       "model": "Runway",
       "channel": "runwayml.com (official pricing page)",
       "metric": "free plan credits",
