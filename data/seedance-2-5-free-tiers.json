@@ -284,7 +284,7 @@
       "value": "50 credits",
       "observed": "2026-10-02",
       "source_type": "report",
-      "note": "reported by the site owner from a logged-in session, with a screenshot of the credit record; 5-second generation on default app settings; not independently re-verified by the site. Against the free grant: the 30/day refresh cannot fund one 5s generation (50 > 30); the one-time 60 covers exactly one, leaving 10"
+      "note": "site-measured: logged-in session, one 5-second generation on default app settings; credit record screenshot on file; not independently re-verified by a second party. Against the free grant: the 30/day refresh cannot fund one 5s generation (50 > 30); the one-time 60 covers exactly one, leaving 10"
     },
     {
       "model": "Runway",
