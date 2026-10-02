@@ -227,10 +227,46 @@
       "model": "PixVerse",
       "channel": "app.pixverse.ai (official app)",
       "metric": "plan and credit details",
-      "value": "not verifiable - bot wall",
+      "value": "published only behind a human-verification wall",
       "observed": "2026-10-02",
       "source_type": "vendor",
-      "note": "the in-app subscribe page shows a Cloudflare human-verification interstitial to automated access; no plan figures retrievable without an interactive session"
+      "note": "automated access on 2026-10-02 met a Cloudflare human-check interstitial; plan figures exist but could not be read without an interactive session; third-party claims unverified"
+    },
+    {
+      "model": "Runway",
+      "channel": "runwayml.com (official pricing page)",
+      "metric": "free plan credits",
+      "value": "125 one-time credits",
+      "observed": "2026-10-02",
+      "source_type": "vendor",
+      "note": "plan table wording: 'Free forever... 125 one-time credits to explore Runway's AI tools'"
+    },
+    {
+      "model": "Runway",
+      "channel": "runwayml.com (official pricing page)",
+      "metric": "free plan credit expiry",
+      "value": "one-time deposit, does not expire",
+      "observed": "2026-10-02",
+      "source_type": "vendor",
+      "note": "FAQ wording: 'the Free plan includes a one-time deposit of 125 credits that doesn't expire'"
+    },
+    {
+      "model": "Runway",
+      "channel": "runwayml.com (official pricing page)",
+      "metric": "credit consumption, Gen-4.5",
+      "value": "12 credits per second of generated video",
+      "observed": "2026-10-02",
+      "source_type": "vendor",
+      "note": "from the pricing FAQ; the page states credit cost per generation depends on model, duration and resolution"
+    },
+    {
+      "model": "Runway",
+      "channel": "runwayml.com (official pricing page)",
+      "metric": "free plan storage",
+      "value": "5GB asset storage",
+      "observed": "2026-10-02",
+      "source_type": "vendor",
+      "note": "free plan also includes 'a selection of generative creative models to test concepts'"
     }
   ]
 }

@@ -4,7 +4,7 @@ A dated record of what each channel actually grants on the **Seedance 2.5** free
 
 Free-tier terms are the least documented part of an AI video product. Vendors publish a launch post with a headline number, then adjust the daily grant, move the watermark switch, or gate a model behind a membership tier. This dataset collects those figures in one place and **stamps every row with the channel it came from and the date it was observed**.
 
-24 observations across Seedance 2.5 and PixVerse, current to 2026-10-02.
+28 observations across Seedance 2.5, PixVerse and Runway, current to 2026-10-02.
 
 ## Files
 
