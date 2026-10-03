@@ -2,7 +2,7 @@
 
 Maintained by VideoFreeTier — https://videofreetier.com/
 
-Coverage: Seedance 2.5, PixVerse and Runway (more models added as they are verified).
+Coverage: Seedance 2.5, PixVerse, Runway and Wan 2.5 (more models added as they are verified).
 Each row records what a channel granted or stated (or, for a documented absence, what the official pages do not state), on the date observed.
 `source_type`: `vendor` = stated by the vendor, including officially published absences; `report` = reported by a user; `single-source` = one uncorroborated account.
 
@@ -42,5 +42,16 @@ Each row records what a channel granted or stated (or, for a documented absence,
 | Runway | runwayml.com (official pricing page) | free plan credit expiry | one-time deposit, does not expire | 2026-10-02 | vendor | FAQ wording: 'the Free plan includes a one-time deposit of 125 credits that doesn't expire' |
 | Runway | runwayml.com (official pricing page) | credit consumption, Gen-4.5 | 12 credits per second of generated video | 2026-10-02 | vendor | from the pricing FAQ; the page states credit cost per generation depends on model, duration and resolution |
 | Runway | runwayml.com (official pricing page) | free plan storage | 5GB asset storage | 2026-10-02 | vendor | free plan also includes 'a selection of generative creative models to test concepts' |
+| Wan 2.5 | create.wan.video (official app, pricing page) | free plan credits per month | not published | 2026-10-03 | vendor | the Free column is the only one of the three plan columns without a credits-per-month figure; the same page states 300 for Pro and 1,200 for Premium |
+| Wan 2.5 | create.wan.video (official app, pricing page) | free plan credit source | daily check-in; the amount is not stated | 2026-10-03 | vendor | page wording: 'Daily check-in to earn free credits'; no figure for it appears in any of the three tabs (Membership Plans, Credits, Gift Cards) |
+| Wan 2.5 | create.wan.video (official app, pricing page) | free plan concurrent video submissions | 1 | 2026-10-03 | vendor | wording: 'Submit up to 1 video concurrently'; Pro 3, Premium 8 |
+| Wan 2.5 | create.wan.video (official app, pricing page) | free plan concurrent image submissions | 1 | 2026-10-03 | vendor | wording: 'Submit up to 1 image concurrently'; Pro 3, Premium 5 |
+| Wan 2.5 | create.wan.video (official app, pricing page) | free plan image styles | 6 | 2026-10-03 | vendor | wording: 'Access to 6 image styles'; the paid tiers get all image styles |
+| Wan 2.5 | create.wan.video (official app, pricing page) | free plan watermark-free download | not listed | 2026-10-03 | vendor | 'Download watermark-free images & videos' appears in the Pro and Premium columns only |
+| Wan 2.5 | create.wan.video (official app, pricing page) | free plan maximum video resolution | not listed | 2026-10-03 | vendor | 'Create High-Res Videos (1080p)' appears from Pro upward; the free column carries no resolution figure |
+| Wan 2.5 | create.wan.video (official app, pricing page) | free plan video duration | not listed | 2026-10-03 | vendor | 'Create longer videos (10-30s)' appears from Pro upward; the free column states no duration |
+| Wan 2.5 | create.wan.video (official app, pricing page) | paid tier credits per month | Pro 300; Premium 1,200 | 2026-10-03 | vendor | Pro US$5/month billed yearly (US$10 monthly); Premium US$20/month billed yearly (US$40 monthly); both auto-renew; the page notes the purchase covers model creation on create.wan.video only and that the API is a separate purchase |
+| Wan 2.5 | create.wan.video (official app, pricing page) | one-time credit packs | 30 credits US$1.50 to 3,900 credits US$100 | 2026-10-03 | vendor | seven packs; the page's own 'Accelerate: up to N images or M videos' lines work out to 5 credits per video and 0.25 per image at every pack size and at both membership tiers (our arithmetic on the page's wording, not a unit price the page states); credits are non-refundable, non-transferable, 2-year validity on redemption |
+| Wan 2.5 | create.wan.video (anonymous session) | login requirement for generation | account required; no anonymous generation path | 2026-10-03 | report | site-measured: headed browser session on 2026-10-03 opened /generate and was met immediately by a login modal ('Welcome to Wan / Log in / Don't have an account? Sign up'); screenshot on file; no prompt could be submitted without an account. The credit cost of one generation is not yet measured — see the note on this page's date |
 
 License: CC BY 4.0. Source: https://videofreetier.com/

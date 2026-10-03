@@ -3,8 +3,8 @@
   "maintainer": "VideoFreeTier",
   "homepage": "https://videofreetier.com/",
   "license": "CC BY 4.0",
-  "generated": "2026-10-02",
-  "coverage": "Seedance 2.5, PixVerse and Runway; more models will be added as they are verified",
+  "generated": "2026-10-03",
+  "coverage": "Seedance 2.5, PixVerse, Runway and Wan 2.5; more models will be added as they are verified",
   "note": "Each row records what a channel granted or stated (or, for a documented absence, what the official pages do not state), on the date observed. source_type: vendor = stated by the vendor, including officially published absences; report = reported by a user; single-source = one uncorroborated account. File names keep the seedance-2-5-free-tiers stem for link stability.",
   "fields": [
     "model",
@@ -321,6 +321,105 @@
       "observed": "2026-10-02",
       "source_type": "vendor",
       "note": "free plan also includes 'a selection of generative creative models to test concepts'"
+    },
+    {
+      "model": "Wan 2.5",
+      "channel": "create.wan.video (official app, pricing page)",
+      "metric": "free plan credits per month",
+      "value": "not published",
+      "observed": "2026-10-03",
+      "source_type": "vendor",
+      "note": "the Free column is the only one of the three plan columns without a credits-per-month figure; the same page states 300 for Pro and 1,200 for Premium"
+    },
+    {
+      "model": "Wan 2.5",
+      "channel": "create.wan.video (official app, pricing page)",
+      "metric": "free plan credit source",
+      "value": "daily check-in; the amount is not stated",
+      "observed": "2026-10-03",
+      "source_type": "vendor",
+      "note": "page wording: 'Daily check-in to earn free credits'; no figure for it appears in any of the three tabs (Membership Plans, Credits, Gift Cards)"
+    },
+    {
+      "model": "Wan 2.5",
+      "channel": "create.wan.video (official app, pricing page)",
+      "metric": "free plan concurrent video submissions",
+      "value": "1",
+      "observed": "2026-10-03",
+      "source_type": "vendor",
+      "note": "wording: 'Submit up to 1 video concurrently'; Pro 3, Premium 8"
+    },
+    {
+      "model": "Wan 2.5",
+      "channel": "create.wan.video (official app, pricing page)",
+      "metric": "free plan concurrent image submissions",
+      "value": "1",
+      "observed": "2026-10-03",
+      "source_type": "vendor",
+      "note": "wording: 'Submit up to 1 image concurrently'; Pro 3, Premium 5"
+    },
+    {
+      "model": "Wan 2.5",
+      "channel": "create.wan.video (official app, pricing page)",
+      "metric": "free plan image styles",
+      "value": "6",
+      "observed": "2026-10-03",
+      "source_type": "vendor",
+      "note": "wording: 'Access to 6 image styles'; the paid tiers get all image styles"
+    },
+    {
+      "model": "Wan 2.5",
+      "channel": "create.wan.video (official app, pricing page)",
+      "metric": "free plan watermark-free download",
+      "value": "not listed",
+      "observed": "2026-10-03",
+      "source_type": "vendor",
+      "note": "'Download watermark-free images & videos' appears in the Pro and Premium columns only"
+    },
+    {
+      "model": "Wan 2.5",
+      "channel": "create.wan.video (official app, pricing page)",
+      "metric": "free plan maximum video resolution",
+      "value": "not listed",
+      "observed": "2026-10-03",
+      "source_type": "vendor",
+      "note": "'Create High-Res Videos (1080p)' appears from Pro upward; the free column carries no resolution figure"
+    },
+    {
+      "model": "Wan 2.5",
+      "channel": "create.wan.video (official app, pricing page)",
+      "metric": "free plan video duration",
+      "value": "not listed",
+      "observed": "2026-10-03",
+      "source_type": "vendor",
+      "note": "'Create longer videos (10-30s)' appears from Pro upward; the free column states no duration"
+    },
+    {
+      "model": "Wan 2.5",
+      "channel": "create.wan.video (official app, pricing page)",
+      "metric": "paid tier credits per month",
+      "value": "Pro 300; Premium 1,200",
+      "observed": "2026-10-03",
+      "source_type": "vendor",
+      "note": "Pro US$5/month billed yearly (US$10 monthly); Premium US$20/month billed yearly (US$40 monthly); both auto-renew; the page notes the purchase covers model creation on create.wan.video only and that the API is a separate purchase"
+    },
+    {
+      "model": "Wan 2.5",
+      "channel": "create.wan.video (official app, pricing page)",
+      "metric": "one-time credit packs",
+      "value": "30 credits US$1.50 to 3,900 credits US$100",
+      "observed": "2026-10-03",
+      "source_type": "vendor",
+      "note": "seven packs; the page's own 'Accelerate: up to N images or M videos' lines work out to 5 credits per video and 0.25 per image at every pack size and at both membership tiers (our arithmetic on the page's wording, not a unit price the page states); credits are non-refundable, non-transferable, 2-year validity on redemption"
+    },
+    {
+      "model": "Wan 2.5",
+      "channel": "create.wan.video (anonymous session)",
+      "metric": "login requirement for generation",
+      "value": "account required; no anonymous generation path",
+      "observed": "2026-10-03",
+      "source_type": "report",
+      "note": "site-measured: headed browser session on 2026-10-03 opened /generate and was met immediately by a login modal ('Welcome to Wan / Log in / Don't have an account? Sign up'); screenshot on file; no prompt could be submitted without an account. The credit cost of one generation is not yet measured — see the note on this page's date"
     }
   ]
 }
