@@ -474,6 +474,51 @@
       "observed": "2026-10-03",
       "source_type": "report",
       "note": "site-measured: the free account's duration control offers 2 s / 5 s / 10 s, and choosing 20 s or more prompts an upgrade; screenshot on file; not independently re-verified by a second party. The plan table lists 'Create longer videos (10-30s)' from Pro upward and gives the free column no duration row at all"
+    },
+    {
+      "model": "Kling AI",
+      "channel": "klingai.com (official pricing URL, unauthenticated)",
+      "metric": "free-tier figures without a login",
+      "value": "not reachable - redirects to the marketing site",
+      "observed": "2026-10-03",
+      "source_type": "vendor",
+      "note": "checked 2026-10-03 with a headed browser: /global/pricing redirected to the marketing homepage, 36,382 characters read with zero credit or plan figures; the plan table only renders inside a logged-in session"
+    },
+    {
+      "model": "Kling AI",
+      "channel": "klingai.com (logged-in session)",
+      "metric": "free trial package credits",
+      "value": "66",
+      "observed": "2026-10-03",
+      "source_type": "report",
+      "note": "site-measured: the account package banner reads Free Trial Package, 66 credits; screenshot on file; read by the site owner, not independently re-verified by a second party"
+    },
+    {
+      "model": "Kling AI",
+      "channel": "klingai.com (logged-in session)",
+      "metric": "free trial package expiry",
+      "value": "2026-11-03",
+      "observed": "2026-10-03",
+      "source_type": "report",
+      "note": "site-measured: the same banner carries an expiry date of 2026-11-03; the free grant is time-limited rather than a recurring daily allowance"
+    },
+    {
+      "model": "Kling AI",
+      "channel": "klingai.com (official pricing page, logged-in)",
+      "metric": "paid tier credits per month",
+      "value": "Standard 660; Pro 3000; Premier 8000; Ultra 26000",
+      "observed": "2026-10-03",
+      "source_type": "report",
+      "note": "read from the plan table in a logged-in session; screenshot on file"
+    },
+    {
+      "model": "Kling AI",
+      "channel": "klingai.com (official pricing page, logged-in)",
+      "metric": "paid tier price, first month",
+      "value": "Standard $6.99; Pro $25.99; Premier $64.99; Ultra $127.99",
+      "observed": "2026-10-03",
+      "source_type": "report",
+      "note": "same plan table; first-purchase prices, renewing at $8.80 / $32.56 / $80.96 / $159.99"
     }
   ]
 }
