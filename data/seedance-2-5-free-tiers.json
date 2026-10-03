@@ -519,6 +519,15 @@
       "observed": "2026-10-03",
       "source_type": "report",
       "note": "same plan table; first-purchase prices, renewing at $8.80 / $32.56 / $80.96 / $159.99"
+    },
+    {
+      "model": "Kling AI",
+      "channel": "klingai.com (logged-in session)",
+      "metric": "credit cost, 720P generation",
+      "value": "9 credits per second",
+      "observed": "2026-10-03",
+      "source_type": "report",
+      "note": "site-measured: reported by the site owner from the logged-in session on 2026-10-03; the rate is for 720P output; not independently re-verified by a second party. Against the free grant: 9 credits per second means the 66-credit trial package funds about seven seconds of 720P video in total, and a single 10-second clip (90 credits) is more than the whole grant"
     }
   ]
 }
