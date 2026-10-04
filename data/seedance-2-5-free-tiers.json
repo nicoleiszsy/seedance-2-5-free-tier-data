@@ -4,7 +4,7 @@
   "homepage": "https://videofreetier.com/",
   "license": "CC BY 4.0",
   "generated": "2026-10-04",
-  "coverage": "Seedance 2.5, Wan 2.5, PixVerse, Kling AI, Runway and Sora 2; more models will be added as they are verified",
+  "coverage": "Seedance 2.5, Wan 2.5, PixVerse, Kling AI, Grok Imagine, Runway and Sora 2; more models will be added as they are verified",
   "note": "Each row records what a channel granted or stated (or, for a documented absence, what the official pages do not state), on the date observed. source_type: vendor = stated by the vendor, including officially published absences; report = reported by a user; single-source = one uncorroborated account. File names keep the seedance-2-5-free-tiers stem for link stability.",
   "fields": [
     "model",
@@ -321,6 +321,15 @@
       "observed": "2026-10-02",
       "source_type": "vendor",
       "note": "free plan also includes 'a selection of generative creative models to test concepts'"
+    },
+    {
+      "model": "Runway",
+      "channel": "runwayml.com (logged-in session, model picker)",
+      "metric": "models usable at no credit cost",
+      "value": "Seedance 2.0 Mini, Kling 2.5 Turbo Pro, HeyGen Avatar 4 and OmniHuman 1.5 Avatar, each carrying a FREE label",
+      "observed": "2026-10-04",
+      "source_type": "report",
+      "note": "site-measured: reported by the site owner from the model picker on 2026-10-04; the four entries are labelled FREE, so they can be used without spending the plan's 125 credits; screenshot on file; no generation was run, so no deduction was measured; not independently re-verified by a second party. This is the first row in the dataset that names which models a free plan may use at no credit cost"
     },
     {
       "model": "Wan 2.5",

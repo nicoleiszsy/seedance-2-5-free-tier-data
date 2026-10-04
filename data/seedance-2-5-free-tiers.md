@@ -2,7 +2,7 @@
 
 Maintained by VideoFreeTier — https://videofreetier.com/
 
-Coverage: Seedance 2.5, Wan 2.5, PixVerse, Kling AI, Runway and Sora 2 (more models added as they are verified).
+Coverage: Seedance 2.5, Wan 2.5, PixVerse, Kling AI, Grok Imagine, Runway and Sora 2 (more models added as they are verified).
 Each row records what a channel granted or stated (or, for a documented absence, what the official pages do not state), on the date observed.
 `source_type`: `vendor` = stated by the vendor, including officially published absences; `report` = reported by a user; `single-source` = one uncorroborated account.
 
@@ -42,6 +42,7 @@ Each row records what a channel granted or stated (or, for a documented absence,
 | Runway | runwayml.com (official pricing page) | free plan credit expiry | one-time deposit, does not expire | 2026-10-02 | vendor | FAQ wording: 'the Free plan includes a one-time deposit of 125 credits that doesn't expire' |
 | Runway | runwayml.com (official pricing page) | credit consumption, Gen-4.5 | 12 credits per second of generated video | 2026-10-02 | vendor | from the pricing FAQ; the page states credit cost per generation depends on model, duration and resolution |
 | Runway | runwayml.com (official pricing page) | free plan storage | 5GB asset storage | 2026-10-02 | vendor | free plan also includes 'a selection of generative creative models to test concepts' |
+| Runway | runwayml.com (logged-in session, model picker) | models usable at no credit cost | Seedance 2.0 Mini, Kling 2.5 Turbo Pro, HeyGen Avatar 4 and OmniHuman 1.5 Avatar, each carrying a FREE label | 2026-10-04 | report | site-measured: reported by the site owner from the model picker on 2026-10-04; the four entries are labelled FREE, so they can be used without spending the plan's 125 credits; screenshot on file; no generation was run, so no deduction was measured; not independently re-verified by a second party. This is the first row in the dataset that names which models a free plan may use at no credit cost |
 | Wan 2.5 | create.wan.video (official app, pricing page) | free plan credits per month | not published | 2026-10-03 | vendor | the Free column is the only one of the three plan columns without a credits-per-month figure; the same page states 300 for Pro and 1,200 for Premium |
 | Wan 2.5 | create.wan.video (official app, pricing page) | free plan credit source | daily check-in; the amount is not stated | 2026-10-03 | vendor | page wording: 'Daily check-in to earn free credits'; no figure for it appears in any of the three tabs (Membership Plans, Credits, Gift Cards) |
 | Wan 2.5 | create.wan.video (official app, pricing page) | free plan concurrent video submissions | 1 | 2026-10-03 | vendor | wording: 'Submit up to 1 video concurrently'; Pro 3, Premium 8 |
