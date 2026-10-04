@@ -332,6 +332,42 @@
       "note": "site-measured: reported by the site owner from the model picker on 2026-10-04; the four entries are labelled FREE, so they can be used without spending the plan's 125 credits; screenshot on file; no generation was run, so no deduction was measured; not independently re-verified by a second party. This is the first row in the dataset that names which models a free plan may use at no credit cost"
     },
     {
+      "model": "Runway",
+      "channel": "runwayml.com (official pricing page)",
+      "metric": "free plan credit equivalent",
+      "value": "25s of Gen-4 Turbo, or 25 image generations",
+      "observed": "2026-10-04",
+      "source_type": "vendor",
+      "note": "the free plan's own hint line, verbatim: '125 credits = 25s of Gen-4 Turbo, or 25 image generations.' The paid-plan lines name more models — Standard reads '625 credits = 52s of Gen-4.5, 52s of Gen-4, 125s of Gen-4 Turbo, 78 Gen-4 Images (1080p), or 31 Nano Banana Pro images (2K)'. Gen-4 Turbo is the only video model the free plan's own line names"
+    },
+    {
+      "model": "Runway",
+      "channel": "runwayml.com (official pricing page)",
+      "metric": "credit consumption, Gen-4 Turbo",
+      "value": "5 credits per second of generated video",
+      "observed": "2026-10-04",
+      "source_type": "vendor",
+      "note": "our arithmetic on the page's own equivalence lines, not a rate the page states: the free line (125 credits = 25s), Standard (625 = 125s), Pro (2250 = 450s) and Max (9500 = 1900s) all divide to exactly 5.0 credits per second. The FAQ states a per-second rate explicitly only for Gen-4.5 (12)"
+    },
+    {
+      "model": "Runway",
+      "channel": "runwayml.com (official pricing page)",
+      "metric": "credit consumption, Gen-4",
+      "value": "12 credits per second of generated video",
+      "observed": "2026-10-04",
+      "source_type": "vendor",
+      "note": "our arithmetic on the page's own equivalence lines, not a rate the page states: Standard (625 credits = 52s) and Max (9500 = 791s) both divide to about 12.0 credits per second — the same rate the FAQ states for Gen-4.5. The free plan's own line names Gen-4 Turbo, not Gen-4"
+    },
+    {
+      "model": "Runway",
+      "channel": "runwayml.com (official pricing page)",
+      "metric": "credit cost table, per model",
+      "value": "Gen-4.5 60 credits/5s; Seedance 2.0 Pro (1080p) 160 credits/4s; Seedance 2.0 Fast 116 credits/4s; Aleph 2.0 140 credits/5s; Gen-4 Image (1080p) 8 credits/image; Gen-4 Image Turbo 2 credits/image; Nano Banana Pro (2K) 20 credits/image; Nano Banana Pro 2 (2K) 11 credits/image",
+      "observed": "2026-10-04",
+      "source_type": "vendor",
+      "note": "the page's own per-generation cost table, read 2026-10-04; it also prices audio (Seed Audio 1.0 15 credits/min, Lyria 3 Pro 8 credits/song, Lyria 3 Clip 4 credits/song). Against the free plan's 125 credits this is a 3.1s-to-25s spread: one Seedance 2.0 Fast generation (116) is affordable and one Seedance 2.0 Pro (160) or Aleph 2.0 (140) generation is not. Which of these models the free plan may run is not stated on this page"
+    },
+    {
       "model": "Wan 2.5",
       "channel": "create.wan.video (official app, pricing page)",
       "metric": "free plan credits per month",
