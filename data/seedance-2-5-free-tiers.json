@@ -548,6 +548,51 @@
       "note": "the discontinuation removes the thing a free-tier figure would describe; third-party guides still quoting daily allowances (30 videos a day and similar) describe a product that no longer exists, and none of those figures is verified here"
     },
     {
+      "model": "Grok Imagine",
+      "channel": "x.ai / grok.com (official pages, this environment)",
+      "metric": "vendor free-tier figures",
+      "value": "not reachable from this environment",
+      "observed": "2026-10-04",
+      "source_type": "vendor",
+      "note": "checked 2026-10-04: x.ai returns HTTP 403 to this environment, grok.com serves a JavaScript application with no static text, and the X Help Center path tried returned 404; no official free-tier figure could be read"
+    },
+    {
+      "model": "Grok Imagine",
+      "channel": "grok.com (consumer app)",
+      "metric": "free-tier mechanism",
+      "value": "count-based, per generation - not a credit balance",
+      "observed": "2026-10-04",
+      "source_type": "report",
+      "note": "reported by the site owner on 2026-10-04; the same mechanism as ChatGPT's free allowance rather than the credit balances this dataset records for other models; the count is reported to change over time"
+    },
+    {
+      "model": "Grok Imagine",
+      "channel": "grok.com (consumer app)",
+      "metric": "free-tier allowance",
+      "value": "not measurable - no published figure and no login held",
+      "observed": "2026-10-04",
+      "source_type": "vendor",
+      "note": "the site holds no Grok login, so no generation could be run; the absence is recorded rather than filled with a borrowed number"
+    },
+    {
+      "model": "Grok Imagine",
+      "channel": "docs.x.ai (official API documentation)",
+      "metric": "API price, image",
+      "value": "from $0.02 per image (1K / 2K)",
+      "observed": "2026-10-04",
+      "source_type": "vendor",
+      "note": "quoted from the Imagine API block on docs.x.ai: Image - 1K / 2K Starting at $0.02 / image. This is API pricing, not the consumer free tier"
+    },
+    {
+      "model": "Grok Imagine",
+      "channel": "docs.x.ai (official API documentation)",
+      "metric": "API price, video",
+      "value": "from $0.02 per second (480p / 720p / 1080p)",
+      "observed": "2026-10-04",
+      "source_type": "vendor",
+      "note": "same page: Video - 480p / 720p / 1080p Starting at $0.02 / sec. The documentation states no free tier anywhere on the page"
+    },
+    {
       "model": "Kling AI",
       "channel": "klingai.com (logged-in session)",
       "metric": "credit cost, 720P generation",
