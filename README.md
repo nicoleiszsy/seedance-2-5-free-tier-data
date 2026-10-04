@@ -4,7 +4,7 @@ A dated record of what each channel actually grants on the free tier of AI video
 
 Free-tier terms are the least documented part of an AI video product. Vendors publish a launch post with a headline number, then adjust the daily grant, move the watermark switch, or gate a model behind a membership tier. This dataset collects those figures in one place and **stamps every row with the channel it came from and the date it was observed**.
 
-57 observations across Seedance 2.5, PixVerse, Runway, Wan 2.5 and Kling AI, current to 2026-10-03. File names keep the `seedance-2-5-free-tiers` stem for link stability; the files themselves are the full dataset, not Seedance-only extracts.
+60 observations across Seedance 2.5, PixVerse, Runway, Wan 2.5, Kling AI and Sora 2, current to 2026-10-03. File names keep the `seedance-2-5-free-tiers` stem for link stability; the files themselves are the full dataset, not Seedance-only extracts.
 
 ## Files
 
