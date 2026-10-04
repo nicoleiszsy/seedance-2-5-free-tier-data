@@ -3,8 +3,8 @@
   "maintainer": "VideoFreeTier",
   "homepage": "https://videofreetier.com/",
   "license": "CC BY 4.0",
-  "generated": "2026-10-03",
-  "coverage": "Seedance 2.5, PixVerse, Runway and Wan 2.5; more models will be added as they are verified",
+  "generated": "2026-10-04",
+  "coverage": "Seedance 2.5, Wan 2.5, PixVerse, Kling AI, Runway and Sora 2; more models will be added as they are verified",
   "note": "Each row records what a channel granted or stated (or, for a documented absence, what the official pages do not state), on the date observed. source_type: vendor = stated by the vendor, including officially published absences; report = reported by a user; single-source = one uncorroborated account. File names keep the seedance-2-5-free-tiers stem for link stability.",
   "fields": [
     "model",

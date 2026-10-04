@@ -4,7 +4,7 @@ A dated record of what each channel actually grants on the free tier of AI video
 
 Free-tier terms are the least documented part of an AI video product. Vendors publish a launch post with a headline number, then adjust the daily grant, move the watermark switch, or gate a model behind a membership tier. This dataset collects those figures in one place and **stamps every row with the channel it came from and the date it was observed**.
 
-60 observations across Seedance 2.5, PixVerse, Runway, Wan 2.5, Kling AI and Sora 2, current to 2026-10-03. File names keep the `seedance-2-5-free-tiers` stem for link stability; the files themselves are the full dataset, not Seedance-only extracts.
+60 observations across Seedance 2.5, PixVerse, Runway, Wan 2.5, Kling AI and Sora 2, current to 2026-10-04. File names keep the `seedance-2-5-free-tiers` stem for link stability; the files themselves are the full dataset, not Seedance-only extracts.
 
 ## Files
 
@@ -34,7 +34,7 @@ Free-tier terms are the least documented part of an AI video product. Vendors pu
 
 **Nothing here is estimated.** Where a figure could not be confirmed against a primary source, the row says so in `note` and `source_type` reflects it. There are no interpolated values.
 
-**Measured, not only quoted.** Most `vendor` rows are what a company published. Eight `report` rows are what happened when someone ran the product: an unauthenticated attempt to open the generator and the login wall it hit; a daily check-in grant of 6 credits that appears on no vendor page; the credits deducted by a 2-second, a 5-second and a 10-second generation; the resulting per-second rate; and the free plan's duration ceiling. Both grades are marked, and the second is the rarer one.
+**Measured, not only quoted.** Most `vendor` rows are what a company published. Eleven rows are what happened when someone ran the product: an unauthenticated attempt to open the generator and the login wall it hit; a daily check-in grant of 6 credits that appears on no vendor page; the credits deducted by a 2-second, a 5-second and a 10-second generation; the resulting per-second rate; the free plan's duration ceiling; PixVerse's 50-credit deduction for a 5-second generation; and Kling's 66-credit trial package, its 2026-11-03 expiry and its 720P rate. Both grades are marked, and the second is the rarer one.
 
 ## What is deliberately not in here
 

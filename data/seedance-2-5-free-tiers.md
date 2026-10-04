@@ -2,7 +2,7 @@
 
 Maintained by VideoFreeTier — https://videofreetier.com/
 
-Coverage: Seedance 2.5, PixVerse, Runway and Wan 2.5 (more models added as they are verified).
+Coverage: Seedance 2.5, Wan 2.5, PixVerse, Kling AI, Runway and Sora 2 (more models added as they are verified).
 Each row records what a channel granted or stated (or, for a documented absence, what the official pages do not state), on the date observed.
 `source_type`: `vendor` = stated by the vendor, including officially published absences; `report` = reported by a user; `single-source` = one uncorroborated account.
 
