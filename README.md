@@ -4,7 +4,7 @@ A dated record of what each channel actually grants on the free tier of AI video
 
 Free-tier terms are the least documented part of an AI video product. Vendors publish a launch post with a headline number, then adjust the daily grant, move the watermark switch, or gate a model behind a membership tier. This dataset collects those figures in one place and **stamps every row with the channel it came from and the date it was observed**.
 
-99 observations across Seedance 2.5, PixVerse, Runway, Wan 2.5, Luma Dream Machine, Kling AI, Sora 2, Grok Imagine, Veo 3.1, Hailuo AI and Canva, current to 2026-10-05.5, Luma Dream Machine, Kling AI, Sora 2, Grok Imagine, Veo 3.1, Hailuo AI and Canva, current to 2026-10-05. File names keep the `seedance-2-5-free-tiers` stem for link stability; the files themselves are the full dataset, not Seedance-only extracts.
+106 observations across Seedance 2.5, PixVerse, Runway, Wan 2.5, Luma Dream Machine, Kling AI, Sora 2, Grok Imagine, Veo 3.1, Hailuo AI, Canva and Invideo AI.5, PixVerse, Runway, Wan 2.5, Luma Dream Machine, Kling AI, Sora 2, Grok Imagine, Veo 3.1, Hailuo AI and Canva, current to 2026-10-05.5, Luma Dream Machine, Kling AI, Sora 2, Grok Imagine, Veo 3.1, Hailuo AI and Canva, current to 2026-10-05. File names keep the `seedance-2-5-free-tiers` stem for link stability; the files themselves are the full dataset, not Seedance-only extracts.
 
 ## Files
 

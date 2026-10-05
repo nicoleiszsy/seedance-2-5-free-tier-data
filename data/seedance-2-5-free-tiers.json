@@ -620,6 +620,69 @@
       "note": "same page: Video - 480p / 720p / 1080p Starting at $0.02 / sec. The documentation states no free tier anywhere on the page"
     },
     {
+      "model": "Invideo AI",
+      "channel": "invideo.io/pricing (official pricing page)",
+      "metric": "free plan exists",
+      "value": "yes - named in the pricing FAQ",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "read 2026-10-05: the pricing FAQ states that when a subscription ends, 'your account will be downgraded to the Free plan and any unused paid credits will expire'. The page never states what the Free plan grants"
+    },
+    {
+      "model": "Invideo AI",
+      "channel": "invideo.io/pricing (official pricing page)",
+      "metric": "free plan allowance",
+      "value": "not published - the pricing page states no figure for it",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "documented absence: the page names a Free plan in its FAQ but lists no allowance, no credit grant and no export limit for it"
+    },
+    {
+      "model": "Invideo AI",
+      "channel": "invideo.io/pricing (official pricing page)",
+      "metric": "plan credits and prices",
+      "value": "Starter 400 credits a seat a month at 0; Plus 2,000 at 6; Max 5,000 at 5 (annual billing)",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "quoted from the plan table; guest seats are listed at 190 credits each with the Invideo editor marked FREE"
+    },
+    {
+      "model": "Invideo AI",
+      "channel": "invideo.io/pricing (official pricing page)",
+      "metric": "credit cost, Seedance 2.0 Fast 720p",
+      "value": "about 30 credits per 5-second video",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "quoted from the plan table's cost column: 'Seedance 2.0 Fast 720p ~30 credits/5s'"
+    },
+    {
+      "model": "Invideo AI",
+      "channel": "invideo.io/pricing (official pricing page)",
+      "metric": "credit cost, Seedance 2.0 1080p",
+      "value": "about 72 credits per 5-second video",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "same cost column: 'Seedance 2.0 1080p ~72 credits/5s'; the Starter plan shows no access to this line"
+    },
+    {
+      "model": "Invideo AI",
+      "channel": "invideo.io/pricing (official pricing page)",
+      "metric": "paid-gated features",
+      "value": "no_watermark and video_resolution_4k",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "read from the plan data behind the pricing page, where these two are listed as gated features; the page does not state the free plan's watermark behaviour"
+    },
+    {
+      "model": "Invideo AI",
+      "channel": "ai.invideo.io (anonymous session)",
+      "metric": "what happens without logging in",
+      "value": "redirected to a signup page: the app entry sends an anonymous visitor to /signup (HTTP 200)",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05. Landed URL https://ai.invideo.io/signup, main document HTTP 200; the page offers a Log in link, and no prompt field or generator interface is reachable behind it"
+    },
+    {
       "model": "Wan 2.5",
       "channel": "create.wan.video (anonymous session)",
       "metric": "what happens without logging in",
