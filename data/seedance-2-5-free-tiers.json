@@ -658,7 +658,7 @@
     {
       "model": "Luma Dream Machine",
       "channel": "lumalabs.ai/app (anonymous session)",
-      "metric": "what happens without logging in",
+      "metric": "what happens without logging in, via lumalabs.ai/app",
       "value": "blocked at sign-up: clicking Start Now redirects to auth.lumalabs.ai/sign-up (page HTTP 200)",
       "observed": "2026-10-05",
       "source_type": "report",
@@ -856,7 +856,7 @@
     {
       "model": "Luma Dream Machine",
       "channel": "app.lumalabs.ai (unauthenticated session)",
-      "metric": "login requirement for generation",
+      "metric": "what happens without logging in, via app.lumalabs.ai",
       "value": "account required; unauthenticated access is redirected to an authentication sign-up page",
       "observed": "2026-10-05",
       "source_type": "report",
