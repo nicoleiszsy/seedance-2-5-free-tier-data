@@ -3,8 +3,8 @@
   "maintainer": "VideoFreeTier",
   "homepage": "https://videofreetier.com/",
   "license": "CC BY 4.0",
-  "generated": "2026-10-04",
-  "coverage": "Seedance 2.5, Wan 2.5, PixVerse, Kling AI, Grok Imagine, Runway, Sora 2, Veo 3.1 and Hailuo AI; more models will be added as they are verified",
+  "generated": "2026-10-05",
+  "coverage": "Seedance 2.5, Wan 2.5, PixVerse, Kling AI, Grok Imagine, Runway, Sora 2, Veo 3.1, Hailuo AI and Luma Dream Machine; more models will be added as they are verified",
   "note": "Each row records what a channel granted or stated (or, for a documented absence, what the official pages do not state), on the date observed. source_type: vendor = stated by the vendor, including officially published absences; report = reported by a user; single-source = one uncorroborated account. File names keep the seedance-2-5-free-tiers stem for link stability.",
   "fields": [
     "model",
@@ -717,6 +717,96 @@
       "observed": "2026-10-03",
       "source_type": "report",
       "note": "site-measured: reported by the site owner from the logged-in session on 2026-10-03; the rate is for 720P output; not independently re-verified by a second party. Against the free grant: 9 credits per second means the 66-credit trial package funds about seven seconds of 720P video in total, and a single 10-second clip (90 credits) is more than the whole grant"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai/pricing (official pricing page)",
+      "metric": "free plan",
+      "value": "not listed - the plan table carries no free row",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "the plan table carries three individual plans (Plus, Pro, Ultra) and two business plans (Team, Enterprise); no free plan appears anywhere on it, and the page states no free-tier allowance of any kind"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai/pricing (official pricing page)",
+      "metric": "free trial credits",
+      "value": "stated to exist; no amount published",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "the only official statement that a free grant exists is the page's own structured data rather than its visible text: the OfferCatalog description reads 'Individual subscription plans for Luma AI creative agents. All plans include free trial credits and commercial use.' No figure for those credits appears on the page"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai/pricing (official pricing page)",
+      "metric": "free-tier allowance",
+      "value": "not measurable - no published figure and no login held",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "the site holds no Luma account, so no generation could be run and no deduction measured; the absence is recorded rather than filled with a borrowed number"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai/learning-center (official FAQ)",
+      "metric": "how pricing is described",
+      "value": "three plans named, none of them free",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "the published answer to 'How does pricing work?' reads: 'Luma runs on a monthly subscription with a credit allowance included in each plan. Credits are used every time you generate images, video, audio... There are three plans to choose from: Luma Plus at $30/month includes 10,000 credits; Luma Pro at $90/month includes 40,000 credits; Luma Ultra at $300/month includes 150,000 credits'. The FAQ item is published collapsed on the Learning Center page and in that page's FAQ structured data"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai/learning-center (official FAQ)",
+      "metric": "credit expiry",
+      "value": "unused credits expire at the end of the billing cycle and are not carried over",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "FAQ wording: 'Please note that any unused credits expire at the end of the applicable billing cycle and will not be carried over to the subsequent month'"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai/learning-center (official FAQ)",
+      "metric": "billing on failure",
+      "value": "credits used for failed generations are automatically returned",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "FAQ wording: 'Any credits used for failed generations will be automatically returned to your account'"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai/pricing (official pricing page)",
+      "metric": "credit cost, Ray 3.2 by resolution",
+      "value": "Draft 20 credits per 5 s; 540p 50; 720p 100; 1080p 400",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "the page's own cost table for Ray 3.2 text-to-video and image-to-video; the same table's header marks HDR at 2x and HDR+EXR at 3x, so five seconds of 1080p HDR+EXR would be 1,200 credits (our arithmetic on the page's stated multiplier, not a price the page prints). The cheapest rung on the ladder is 20 credits per 5 seconds and no rung is priced at zero"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai/pricing (official pricing page)",
+      "metric": "paid plan credits per month",
+      "value": "Plus 10,000; Pro 40,000; Ultra 150,000",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "the plan cards and the FAQ state the same three figures; the FAQ adds that monthly credits reset each billing cycle"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai/pricing (official pricing page)",
+      "metric": "paid plan prices",
+      "value": "Plus $30/month; Pro $90/month; Ultra $300/month",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "monthly billing; the yearly toggle on the same page shows $300, $900 and $3,000 billed yearly, which divides to $25, $75 and $250 per month (our arithmetic). The page's own header claims up to 20% saving with yearly"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "app.lumalabs.ai (unauthenticated session)",
+      "metric": "login requirement for generation",
+      "value": "account required; unauthenticated access is redirected to an authentication sign-up page",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "site-measured: an unauthenticated request to app.lumalabs.ai on 2026-10-05 was redirected to auth.lumalabs.ai/sign-up carrying a client_id and redirect_uri, and the response was HTTP 403 behind a bot-check interstitial; no generation path was reachable without an account. Screenshot of the redirect target on file; not independently re-verified by a second party"
     }
   ]
 }
