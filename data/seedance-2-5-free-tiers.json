@@ -638,6 +638,87 @@
       "note": "same page: Video - 480p / 720p / 1080p Starting at $0.02 / sec. The documentation states no free tier anywhere on the page"
     },
     {
+      "model": "Wan 2.5",
+      "channel": "create.wan.video (anonymous session, re-check)",
+      "metric": "login requirement for generation",
+      "value": "account required; no anonymous generation path",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted. Opening /generate produced the login modal before any prompt could be submitted; same finding as the 2026-10-03 row, recorded again with its own date"
+    },
+    {
+      "model": "PixVerse",
+      "channel": "app.pixverse.ai (anonymous session)",
+      "metric": "what an anonymous visit sees",
+      "value": "Login / Subscribe / Claim-credits in the navigation; no generator interface reachable",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted"
+    },
+    {
+      "model": "Hailuo AI",
+      "channel": "hailuoai.video (anonymous session)",
+      "metric": "what an anonymous visit sees",
+      "value": "the create page shows a Login entry, pricing from $9.99 a month, and the MiniMax H3 model",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted"
+    },
+    {
+      "model": "Runway",
+      "channel": "app.runwayml.com (anonymous session)",
+      "metric": "anonymous access route",
+      "value": "a guest route (teams/guest) renders the generator UI, with Login and Sign up in the header",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted. Whether a guest can complete a render is unverified - only the interface was observed"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai/app (anonymous session)",
+      "metric": "what an anonymous visit sees",
+      "value": "the app page renders with Sign In, Try for free, and the plan credit tiers",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted"
+    },
+    {
+      "model": "Canva",
+      "channel": "canva.com/video-editor (anonymous session)",
+      "metric": "what an anonymous visit sees",
+      "value": "the editor page shows Sign up / Log in and a create-or-upload entry",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted"
+    },
+    {
+      "model": "Kling AI",
+      "channel": "kling.ai/app (anonymous session)",
+      "metric": "what an anonymous visit sees",
+      "value": "the workspace renders with a Sign In control and upgrade prompts",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted"
+    },
+    {
+      "model": "Seedance 2.5",
+      "channel": "jimeng.jianying.com (anonymous session)",
+      "metric": "what an anonymous visit sees",
+      "value": "the public landing page renders; generation sits behind the app entry",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted"
+    },
+    {
+      "model": "Veo 3.1",
+      "channel": "flow.google.com (official pricing page)",
+      "metric": "free plan access route and grant",
+      "value": "a Google account is required; the free tier is 50 Flow points a day",
+      "observed": "2026-10-05",
+      "source_type": "vendor",
+      "note": "read from the official page on 2026-10-05: it states 使用 Google 账号 (未购买 Google AI 订阅方案) for the free tier, and 免费: 每天 50 个 Google Flow 点数. This is the page that the site owner's 2026-10-04 figure of 50 credits a day matches"
+    },
+    {
       "model": "Veo 3.1",
       "channel": "Google Flow (free account)",
       "metric": "free daily credits",
