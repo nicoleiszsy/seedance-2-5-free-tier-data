@@ -459,24 +459,6 @@
     },
     {
       "model": "Wan 2.5",
-      "channel": "create.wan.video (anonymous session)",
-      "metric": "login requirement for generation",
-      "value": "account required; no anonymous generation path",
-      "observed": "2026-10-03",
-      "source_type": "report",
-      "note": "site-measured: headed browser session on 2026-10-03 opened /generate and was met immediately by a login modal ('Welcome to Wan / Log in / Don't have an account? Sign up'); screenshot on file; no prompt could be submitted without an account"
-    },
-    {
-      "model": "Wan 2.5",
-      "channel": "create.wan.video (logged-in session)",
-      "metric": "daily check-in grant",
-      "value": "6 credits",
-      "observed": "2026-10-03",
-      "source_type": "report",
-      "note": "site-measured: read from the logged-in free account on 2026-10-03; the pricing page states only that 'Daily check-in to earn free credits' and never gives the amount, so this figure exists nowhere on the vendor's pages; credit record screenshot on file; not independently re-verified by a second party"
-    },
-    {
-      "model": "Wan 2.5",
       "channel": "create.wan.video (logged-in session)",
       "metric": "credit deduction, one 2-second video generation",
       "value": "6 credits",
@@ -639,84 +621,75 @@
     },
     {
       "model": "Wan 2.5",
-      "channel": "create.wan.video (anonymous session, re-check)",
-      "metric": "login requirement for generation",
-      "value": "account required; no anonymous generation path",
+      "channel": "create.wan.video (anonymous session)",
+      "metric": "what happens without logging in",
+      "value": "blocked: opening /generate renders the login modal before any prompt can be entered (HTTP 200)",
       "observed": "2026-10-05",
       "source_type": "report",
-      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted. Opening /generate produced the login modal before any prompt could be submitted; same finding as the 2026-10-03 row, recorded again with its own date"
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05. Landed URL https://create.wan.video/generate, main document HTTP 200; the modal offers Log in / Sign up / Google / GitHub and no generation control is reachable behind it"
     },
     {
       "model": "PixVerse",
       "channel": "app.pixverse.ai (anonymous session)",
-      "metric": "what an anonymous visit sees",
-      "value": "Login / Subscribe / Claim-credits in the navigation; no generator interface reachable",
+      "metric": "what happens without logging in",
+      "value": "blocked: the landing page offers Login / Subscribe / Claim-credits and no generator interface is reachable (HTTP 200)",
       "observed": "2026-10-05",
       "source_type": "report",
-      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted"
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05. Landed URL https://app.pixverse.ai/, main document HTTP 200; no prompt field and no generate control were present to attempt"
     },
     {
       "model": "Hailuo AI",
       "channel": "hailuoai.video (anonymous session)",
-      "metric": "what an anonymous visit sees",
-      "value": "the create page shows a Login entry, pricing from $9.99 a month, and the MiniMax H3 model",
+      "metric": "what happens without logging in",
+      "value": "blocked: the create page offers Login and pricing from $9.99 a month, with no anonymous generation control (HTTP 200)",
       "observed": "2026-10-05",
       "source_type": "report",
-      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted"
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05. Landed URL https://hailuoai.video/zh-Intl/create/image-to-video, main document HTTP 200; the model on show is MiniMax H3"
     },
     {
       "model": "Runway",
       "channel": "app.runwayml.com (anonymous session)",
-      "metric": "anonymous access route",
-      "value": "a guest route (teams/guest) renders the generator UI, with Login and Sign up in the header",
+      "metric": "what happens without logging in",
+      "value": "blocked at registration: the guest route renders the tool shell (HTTP 200), but the create entry lands on auth.runwayml.com registration",
       "observed": "2026-10-05",
       "source_type": "report",
-      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted. Whether a guest can complete a render is unverified - only the interface was observed"
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05. Landed URL https://app.runwayml.com/video-tools/teams/guest/ai-tools/generate, main document HTTP 200; no prompt field or generate control was reachable in the guest shell, and the create entry redirected to https://auth.runwayml.com/interaction/.../register with an email form"
     },
     {
       "model": "Luma Dream Machine",
       "channel": "lumalabs.ai/app (anonymous session)",
-      "metric": "what an anonymous visit sees",
-      "value": "the app page renders with Sign In, Try for free, and the plan credit tiers",
+      "metric": "what happens without logging in",
+      "value": "blocked at sign-up: clicking Start Now redirects to auth.lumalabs.ai/sign-up (page HTTP 200)",
       "observed": "2026-10-05",
       "source_type": "report",
-      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted"
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05. Landed URL https://lumalabs.ai/app, main document HTTP 200; no prompt field was present, and the Start Now control redirected to https://auth.lumalabs.ai/sign-up with a First name / Last name / Email form"
     },
     {
       "model": "Canva",
       "channel": "canva.com/video-editor (anonymous session)",
-      "metric": "what an anonymous visit sees",
-      "value": "the editor page shows Sign up / Log in and a create-or-upload entry",
+      "metric": "what happens without logging in",
+      "value": "blocked at consent: after the cookie wall, Create a video surfaces a 14+ / terms-of-use consent gate instead of an editor (HTTP 200)",
       "observed": "2026-10-05",
       "source_type": "report",
-      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted"
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05. Landed URL https://www.canva.com/video-editor/, main document HTTP 200; no prompt field was reachable at any point"
     },
     {
       "model": "Kling AI",
       "channel": "kling.ai/app (anonymous session)",
-      "metric": "what an anonymous visit sees",
-      "value": "the workspace renders with a Sign In control and upgrade prompts",
+      "metric": "what happens without logging in",
+      "value": "blocked at generation: a prompt was entered and Generate clicked, and the login modal appeared (HTTP 200)",
       "observed": "2026-10-05",
       "source_type": "report",
-      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted"
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05. Landed URL https://kling.ai/app/, main document HTTP 200; the workspace rendered a fillable prompt box, and clicking Generate raised a Welcome to Kling AI modal offering Google / Apple / email"
     },
     {
       "model": "Seedance 2.5",
       "channel": "jimeng.jianying.com (anonymous session)",
-      "metric": "what an anonymous visit sees",
-      "value": "the public landing page renders; generation sits behind the app entry",
+      "metric": "what happens without logging in",
+      "value": "blocked at login: the creation workspace renders with a prompt box but states 请先登录 (log in first) (HTTP 200)",
       "observed": "2026-10-05",
       "source_type": "report",
-      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05; observation only, no generation was attempted"
-    },
-    {
-      "model": "Veo 3.1",
-      "channel": "flow.google.com (official pricing page)",
-      "metric": "free plan access route and grant",
-      "value": "a Google account is required; the free tier is 50 Flow points a day",
-      "observed": "2026-10-05",
-      "source_type": "vendor",
-      "note": "read from the official page on 2026-10-05: it states 使用 Google 账号 (未购买 Google AI 订阅方案) for the free tier, and 免费: 每天 50 个 Google Flow 点数. This is the page that the site owner's 2026-10-04 figure of 50 credits a day matches"
+      "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05. Landed URL https://jimeng.jianying.com/ai-tool/home after /ai-tool/video redirected there, main document HTTP 200; the workspace shows a prompt field and a 生成 control with 请先登录 beside it"
     },
     {
       "model": "Veo 3.1",
