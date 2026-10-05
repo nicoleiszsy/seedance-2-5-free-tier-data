@@ -4,7 +4,7 @@ A dated record of what each channel actually grants on the free tier of AI video
 
 Free-tier terms are the least documented part of an AI video product. Vendors publish a launch post with a headline number, then adjust the daily grant, move the watermark switch, or gate a model behind a membership tier. This dataset collects those figures in one place and **stamps every row with the channel it came from and the date it was observed**.
 
-88 observations across Seedance 2.5, PixVerse, Runway, Wan 2.5, Luma Dream Machine, Kling AI, Sora 2, Grok Imagine, Veo 3.1 and Hailuo AI, current to 2026-10-05. File names keep the `seedance-2-5-free-tiers` stem for link stability; the files themselves are the full dataset, not Seedance-only extracts.
+93 observations across Seedance 2.5, PixVerse, Runway, Wan 2.5, Luma Dream Machine, Kling AI, Sora 2, Grok Imagine, Veo 3.1 and Hailuo AI, current to 2026-10-05. File names keep the `seedance-2-5-free-tiers` stem for link stability; the files themselves are the full dataset, not Seedance-only extracts.
 
 ## Files
 
@@ -34,7 +34,7 @@ Free-tier terms are the least documented part of an AI video product. Vendors pu
 
 **Nothing here is estimated.** Where a figure could not be confirmed against a primary source, the row says so in `note` and `source_type` reflects it. There are no interpolated values.
 
-**Measured, not only quoted.** Most `vendor` rows are what a company published. Thirteen rows are what happened when someone ran the product: an unauthenticated attempt to open the generator and the login wall it hit; a daily check-in grant of 6 credits that appears on no vendor page; the credits deducted by a 2-second, a 5-second and a 10-second generation; the resulting per-second rate; the free plan's duration ceiling; PixVerse's 50-credit deduction for a 5-second generation; and Kling's 66-credit trial package, its 2026-11-03 expiry and its 720P rate; Runway's model picker, where four models are marked FREE; and Luma Dream Machine's login wall, which sends an unauthenticated visitor to a sign-up page. Both grades are marked, and the second is the rarer one.
+**Measured, not only quoted.** Most `vendor` rows are what a company published. Thirteen rows are what happened when someone ran the product: an unauthenticated attempt to open the generator and the login wall it hit; a daily check-in grant of 6 credits that appears on no vendor page; the credits deducted by a 2-second, a 5-second and a 10-second generation; the resulting per-second rate; the free plan's duration ceiling; PixVerse's 50-credit deduction for a 5-second generation; and Kling's 66-credit trial package, its 2026-11-03 expiry and its 720P rate; Runway's model picker, where four models are marked FREE; and Luma Dream Machine's login wall, which sends an unauthenticated visitor to a sign-up page. Both grades are marked, and the second is the rarer one. Five further rows are reported rather than measured: the site owner read them from a logged-in Luma Dream Machine free account on 2026-10-05 — an allowance of about 30 generations a month that resets and does not carry over, one generation costing one unit of it, Draft resolution only, a watermark that cannot be removed, a personal non-commercial licence, and no video extension or local repaint. Those rows are graded `report`, carry no screenshot, and are not mixed into the measured count above.
 
 ## What is deliberately not in here
 

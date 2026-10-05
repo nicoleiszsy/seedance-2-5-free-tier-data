@@ -739,11 +739,11 @@
     {
       "model": "Luma Dream Machine",
       "channel": "lumalabs.ai/pricing (official pricing page)",
-      "metric": "free-tier allowance",
-      "value": "not measurable - no published figure and no login held",
+      "metric": "published free-tier allowance",
+      "value": "not published - no Luma page states an amount",
       "observed": "2026-10-05",
       "source_type": "vendor",
-      "note": "the site holds no Luma account, so no generation could be run and no deduction measured; the absence is recorded rather than filled with a borrowed number"
+      "note": "the site holds no Luma account of its own; every published Luma page read on 2026-10-05 states that free trial credits exist and none of them states how many. The allowance recorded below is reported by the site owner from a logged-in session and is graded as a report, not as a vendor figure"
     },
     {
       "model": "Luma Dream Machine",
@@ -807,6 +807,51 @@
       "observed": "2026-10-05",
       "source_type": "report",
       "note": "site-measured: an unauthenticated request to app.lumalabs.ai on 2026-10-05 was redirected to auth.lumalabs.ai/sign-up carrying a client_id and redirect_uri, and the response was HTTP 403 behind a bot-check interstitial; no generation path was reachable without an account. Screenshot of the redirect target on file; not independently re-verified by a second party"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai (logged-in free account)",
+      "metric": "free-tier mechanism",
+      "value": "generation-count based - one generation costs one unit of the allowance, not a credit balance",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "reported by the site owner from the official product on 2026-10-05; no screenshot on file; not independently re-verified by this site. The allowance is counted in generations rather than in credits, which is the same shape as the Grok Imagine row in this dataset and a different shape from every credit-balance model in it"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai (logged-in free account)",
+      "metric": "free-tier allowance",
+      "value": "about 30 generations per month, reset monthly and not carried over",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "reported by the site owner from the official product on 2026-10-05; no screenshot on file; not independently re-verified by this site. The figure is reported as approximate; the no-rollover behaviour matches the vendor's own FAQ wording for paid plans, which says unused credits expire at the end of the billing cycle. This is the first row in the dataset that puts a number on Luma's free tier"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai (logged-in free account)",
+      "metric": "free-tier output resolution",
+      "value": "Draft only - 540p, 720p and above are not available on the free tier",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "reported by the site owner from the official product on 2026-10-05; no screenshot on file; not independently re-verified by this site. Draft is the bottom rung of the vendor's own published price ladder, where it costs 20 credits per 5 seconds"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai (logged-in free account)",
+      "metric": "free-tier watermark and licence",
+      "value": "a watermark that cannot be removed; personal, non-commercial use only",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "reported by the site owner from the official product on 2026-10-05; no screenshot on file; not independently re-verified by this site"
+    },
+    {
+      "model": "Luma Dream Machine",
+      "channel": "lumalabs.ai (logged-in free account)",
+      "metric": "free-tier editing features",
+      "value": "video extension and local repaint are not available",
+      "observed": "2026-10-05",
+      "source_type": "report",
+      "note": "reported by the site owner from the official product on 2026-10-05; no screenshot on file; not independently re-verified by this site"
     }
   ]
 }
