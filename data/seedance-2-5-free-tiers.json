@@ -827,6 +827,15 @@
       "note": "site-measured: fresh browser profile with no account signed in, checked on 2026-10-05. Landed URL https://www.canva.com/video-editor/, main document HTTP 200; no prompt field was reachable at any point"
     },
     {
+      "model": "Canva",
+      "channel": "canva.com (logged-in free account)",
+      "metric": "what one AI video generation deducts",
+      "value": "counted against the monthly shared AI quota — the free tier's up-to-20-uses pool, which resets monthly",
+      "observed": "2026-10-08",
+      "source_type": "report",
+      "note": "reported by the site owner from a logged-in Canva account on 2026-10-08; the deduction runs through the shared monthly AI quota rather than a separate credit balance; no screenshot on file; not independently re-verified by a second party"
+    },
+    {
       "model": "Kling AI",
       "channel": "kling.ai/app (anonymous session)",
       "metric": "what happens without logging in",
