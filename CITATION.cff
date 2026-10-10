@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "AI video model free-tier observations"
+abstract: >-
+  Dated observations of what twelve AI video models grant on their free tiers, one row per figure.
+  Each row carries the channel it was observed on, the date it was observed, and whether the source
+  was a vendor statement or a report. Where nothing is published, the row records the absence instead
+  of a guess; no value is estimated or interpolated.
+version: 2.0
+doi: 10.5281/zenodo.23260883
+date-released: "2026-10-09"
+license: CC-BY-4.0
+url: "https://videofreetier.com/data/"
+repository-code: "https://github.com/nicoleiszsy/seedance-2-5-free-tier-data"
+keywords:
+  - AI video
+  - free tier
+  - text-to-video
+  - image-to-video
+  - dataset
+  - open data
+authors:
+  - name: "VideoFreeTier"
+    website: "https://videofreetier.com/"
